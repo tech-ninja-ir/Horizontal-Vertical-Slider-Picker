@@ -1,4 +1,4 @@
-package com.example.nbtk.slider
+package com.example.nbtk.slider.kotlin
 
 import android.content.Context
 import android.support.v7.widget.LinearLayoutManager

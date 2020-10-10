@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Horizontal-Vertical-Slider-Picker.iml" filepath="$PROJECT_DIR$/.idea/modules/Horizontal-Vertical-Slider-Picker.iml" group="Horizontal-Vertical-Slider-Picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Horizontal-Vertical-Slider-Picker-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Horizontal-Vertical-Slider-Picker-app.iml" group="Horizontal-Vertical-Slider-Picker/app" />
       <module fileurl="file:///mnt/hgfs/projects/horizontalpicker/app/app.iml" filepath="/mnt/hgfs/projects/horizontalpicker/app/app.iml" />
       <module fileurl="file:///mnt/hgfs/projects/horizontalpicker/horizontalpicker.iml" filepath="/mnt/hgfs/projects/horizontalpicker/horizontalpicker.iml" />
     </modules>

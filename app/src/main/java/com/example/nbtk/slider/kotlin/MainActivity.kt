@@ -1,11 +1,11 @@
-package com.example.nbtk.slider
+package com.example.nbtk.slider.kotlin
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
+import com.example.nbtk.slider.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         rvHorizontalPicker = findViewById(R.id.rv_horizontal_picker)
 
         // Setting the padding such that the items will appear in the middle of the screen
-        val padding: Int = ScreenUtils.getScreenWidth(this)/2 - ScreenUtils.dpToPx(this, 40)
+        val padding: Int = ScreenUtils.getScreenWidth(this) / 2 - ScreenUtils.dpToPx(this, 40)
         rvHorizontalPicker.setPadding(padding, 0, padding, 0)
 
         // Setting layout manager

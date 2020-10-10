@@ -1,14 +1,16 @@
-package com.example.nbtk.slider
+package com.example.nbtk.slider.kotlin
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import com.example.nbtk.slider.R
 
 /**
  * Created by nbtk on 5/4/18.
  */
-class SliderAdapter : RecyclerView.Adapter<SliderItemViewHolder>() {
+class SliderAdapter : RecyclerView.Adapter<SliderAdapter.SliderItemViewHolder>() {
 
     private val data: ArrayList<String> = ArrayList();
     var callback: Callback? = null
@@ -39,6 +41,11 @@ class SliderAdapter : RecyclerView.Adapter<SliderItemViewHolder>() {
         this.data.clear()
         this.data.addAll(data)
         notifyDataSetChanged()
+    }
+
+    class SliderItemViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView) {
+
+        val tvItem: TextView? = itemView?.findViewById(R.id.tv_item)
     }
 
     interface Callback {
